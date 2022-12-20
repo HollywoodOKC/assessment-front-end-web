@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sail&display=swap');
+
+body {
+  background: hsl(0, 0%, 86.7%);
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid hsl(38.8, 100%, 50%);
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: hsl(38.8, 100%, 50%);
+}
+
+a:visited {
+	color: hsl(348, 83.3%, 47.1%);
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+#header {
+	display: block;
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+	font-size: 40px;
+	color: hsl(30, 100%, 51%);
+}
+
+#aboutme {
+	display: block;
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+	font-size: 30px;
+}
+#favlist {
+	font-family: 'Sail', cursive;
+	font-size: 25px;
+	border: inset hsl(100, 0%, 0%);
+}
+
+#color, #place, #ritual {
+	background-color: yellow;
+	width: 100%;
+	font-size: 30px;
+	font-family: 'Pacifico', cursive;
+}
+#photo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
