@@ -1,9 +1,9 @@
-const myFav = () => {
-  if (document.getElementById("color").onclick) {
-    alert(`Black`);
-  } else if {
-    document.getElementById("place").onclick {
-    alert(`Germany`);
-    }
-  }
+const myFavColor = () => {
+  window.alert("Black");
+}
+const myFavPlace = () => {
+  window.alert("Germany");
+}
+const myFavRitual = () => {
+  window.alert("Get Good Rest");
 }
