@@ -7,11 +7,9 @@ function handleSubmit(evt) {
 	alert(`User Successfully Submitted!`);
 }
 
-const ducky = document.querySelector('#ducky');
-
-ducky.addEventListener('mouseover', () => {
-	alert('Great Work!');
-})
+document.getElementById("ducky").addEventListener("mouseover", function () {
+	window.alert(`You're Doing a great job!`);
+});
 
 let form = document.querySelector('#contact');
 
